@@ -7,7 +7,15 @@
     "type": "git",
     "url": "git+https://github.com/CezaryDanielNowak/Blur.js.git"
   },
+  "scripts": {
+    "build": "grunt concat",
+    "start": "grunt concat"
+  },
   "author": "Jacob Kelley",
   "license": "MIT",
-  "homepage": "http://blurjs.com/"
+  "homepage": "http://blurjs.com/",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1"
+  }
 }

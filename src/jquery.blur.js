@@ -143,7 +143,7 @@
 			};
 			if(/^http/.test(formattedSource)) {
 				// enable CORS for external sources
-				img.crossOrigin = "Anonymous";
+				tempImg.crossOrigin = "Anonymous";
 			}
 			tempImg.src = formattedSource;
 			return _this;
